@@ -100,10 +100,10 @@ services:
   nlp:
     container_name: esmero-nlp
     restart: always
-    image: "esmero/esmero-nlp:fasttext-multiarch"
+    image: "esmero/esmero-nlp:1.4.2-fasttext-multiarch"
     # ML processing image. Live does not ship with ML configurations. But if you need to
     # evaluate the tools on a Cloud server instead of a local replace previous image with this.
-    #image: "esmero/esmero-nlp:1.1.1-multiarch"
+    #image: "esmero/esmero-nlp:1.4.2-amd64"
     ports:
       - "6400:6400"
     networks:
@@ -169,7 +169,9 @@ services:
       - "6379:6379"
     command: >
       --requirepass ${REDIS_PASSWORD}
-      --save 20 1
+      --save ""
+      # To allow Redis to write caches every 20 seconds, and reload on restart, uncomment the following line and comment the previous one out.
+      # --save 20 1
       --loglevel warning
       --maxmemory-policy allkeys-lru
       --maxmemory 2gb
