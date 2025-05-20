@@ -1,0 +1,12 @@
+uuid: 0caa5b10-8b84-4621-9782-ee7782b81e50
+langcode: en
+status: true
+dependencies: {  }
+id: aip_uuid
+label: 'aip uuid'
+pluginid: jmespath
+pluginconfig:
+  source_key: aip_uuid
+  is_date: false
+  exposed_key: aip_uuid
+active: true

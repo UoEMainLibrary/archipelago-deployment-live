@@ -7,6 +7,7 @@ data_storage/db/*
 data_storage/iiiftmp/*
 data_storage/iiifcache/*
 data_storage/letsencrypt/*
+data_storage/minio-data/*
 data_storage/ngnixcache/*
 data_storage/solrcore/*
 drupal/composer.lock

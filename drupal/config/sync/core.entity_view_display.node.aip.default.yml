@@ -1,0 +1,62 @@
+uuid: 55fad1d0-1239-43c7-b7ee-6792e684385e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.aip.field_descriptive_metadata
+    - node.type.aip
+  module:
+    - ds
+    - format_strawberryfield
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: layout_onecol
+      library: layout_discovery/onecol
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+    regions:
+      content:
+        - langcode
+        - field_descriptive_metadata
+        - links
+id: node.aip.default
+targetEntityType: node
+bundle: aip
+mode: default
+content:
+  field_descriptive_metadata:
+    type: strawberry_metadata_formatter
+    label: above
+    settings:
+      iiif_base_url: 'https://test.dp-register.is.ed.ac.uk/cantaloupe/iiif/2'
+      iiif_base_url_internal: 'http://esmero-cantaloupe:8182/iiif/2'
+      use_iiif_globals: '1'
+      label: 'Aip Metadata Display'
+      specs: 'http://schema.org'
+      metadatadisplayentity_uuid: ed9b4645-d19f-4317-ac19-388ba3872310
+      metadatadisplayentity_uselabel: '1'
+      upload_json_key_source: ''
+      embargo_json_key_source: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  langcode:
+    type: language
+    label: above
+    settings:
+      link_to_entity: false
+      native_language: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  search_api_excerpt: true
