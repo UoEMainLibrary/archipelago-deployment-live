@@ -1,6 +1,6 @@
 uuid: 869e908d-fda3-447c-bac2-d963ff222431
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - facets.facet.descriptive_metadata_object_types
@@ -12,7 +12,7 @@ dependencies:
 id: facet_object_type
 theme: archipelago_subtheme
 region: sidebar_second
-weight: -12
+weight: 2
 provider: null
 plugin: 'facet_block:descriptive_metadata_object_types'
 settings:

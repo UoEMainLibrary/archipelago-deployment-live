@@ -1,6 +1,6 @@
 uuid: 8849cadb-bac9-432d-81dc-c601cdad19b8
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - facets.facet.digital_object_type_grid
@@ -12,7 +12,7 @@ dependencies:
 id: strawberrygriddescriptivemetadatasourcedigital_object_type
 theme: archipelago_subtheme
 region: sidebar_second
-weight: -13
+weight: 1
 provider: null
 plugin: 'facet_block:digital_object_type_grid'
 settings:

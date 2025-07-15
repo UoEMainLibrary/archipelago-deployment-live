@@ -1,0 +1,12 @@
+uuid: afd79e34-03d7-44bb-8442-7d89bbd0a12a
+langcode: en
+status: true
+dependencies: {  }
+id: record_object_type
+label: 'Record Object Type'
+pluginid: jmespath
+pluginconfig:
+  source_key: object_type
+  is_date: false
+  exposed_key: object_type
+active: true

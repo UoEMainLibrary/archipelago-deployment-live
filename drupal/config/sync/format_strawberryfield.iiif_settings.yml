@@ -1,4 +1,4 @@
-pub_server_url: 'http://localhost:8183/iiif/2'
+pub_server_url: 'https://test.digital.collections.ed.ac.uk/cantaloupe/iiif/2'
 int_server_url: 'http://esmero-cantaloupe:8182/iiif/2'
 iiif_content_search_api_visual_enabled_processors: ocr
 iiif_content_search_api_time_enabled_processors: subtitle

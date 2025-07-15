@@ -1,0 +1,12 @@
+uuid: 04a139dc-e31c-472a-b8c9-859c0cb3595b
+langcode: en
+status: true
+dependencies: {  }
+id: media_file_name
+label: 'Media file name'
+pluginid: jmespath
+pluginconfig:
+  source_key: '"as:image".*.name | [0]'
+  is_date: false
+  exposed_key: as_image_name_0
+active: true

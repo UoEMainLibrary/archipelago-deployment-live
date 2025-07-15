@@ -5,9 +5,9 @@ dependencies:
   config:
     - core.entity_form_mode.node.super_admin_raw_json
     - field.field.node.digital_object_collection.body
+    - field.field.node.digital_object_collection.field_backend_id
     - field.field.node.digital_object_collection.field_descriptive_metadata
     - node.type.digital_object_collection
-    - workflows.workflow.editorial
   module:
     - content_moderation
     - field_layout
@@ -62,6 +62,7 @@ content:
     third_party_settings: {  }
 hidden:
   body: true
+  field_backend_id: true
   langcode: true
   path: true
   promote: true

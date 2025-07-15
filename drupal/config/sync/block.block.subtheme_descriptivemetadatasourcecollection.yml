@@ -1,0 +1,24 @@
+uuid: 3049304f-a5d3-422d-a87f-f5a5e7ac30c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.strawberry_descriptive_metadata_source_collection
+  module:
+    - facets
+  theme:
+    - archipelago_subtheme
+id: subtheme_descriptivemetadatasourcecollection
+theme: archipelago_subtheme
+region: sidebar_second
+weight: -21
+provider: null
+plugin: 'facet_block:strawberry_descriptive_metadata_source_collection'
+settings:
+  id: 'facet_block:strawberry_descriptive_metadata_source_collection'
+  label: 'Sub Collection'
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: subtheme_descriptivemetadatasourcecollection
+visibility: {  }

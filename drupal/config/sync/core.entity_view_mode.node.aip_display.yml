@@ -1,0 +1,11 @@
+uuid: a1f46cd1-ca7e-4350-ac67-c760ecaa511b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.aip_display
+label: aip_display
+description: ''
+targetEntityType: node
+cache: true

@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.full
     - field.field.node.digital_object_collection.body
+    - field.field.node.digital_object_collection.field_backend_id
     - field.field.node.digital_object_collection.field_descriptive_metadata
     - node.type.digital_object_collection
   module:
@@ -92,4 +93,5 @@ content:
     region: content
 hidden:
   content_moderation_control: true
+  field_backend_id: true
   search_api_excerpt: true

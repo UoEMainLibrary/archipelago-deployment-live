@@ -1,0 +1,19 @@
+smtp_on: true
+smtp_host: bulkmailrelay.ucs.ed.ac.uk
+smtp_hostbackup: ''
+smtp_port: '25'
+smtp_protocol: standard
+smtp_autotls: false
+smtp_timeout: 5
+smtp_username: ''
+smtp_password: ''
+smtp_from: dls-web@ed.ac.uk
+smtp_fromname: 'Digital Library'
+smtp_client_hostname: ''
+smtp_client_helo: ''
+smtp_allowhtml: '0'
+smtp_test_address: scott.renton@ed.ac.uk
+smtp_reroute_address: dls-web@ed.ac.uk
+smtp_debugging: false
+smtp_debug_level: 1
+smtp_keepalive: false

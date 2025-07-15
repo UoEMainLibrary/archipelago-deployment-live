@@ -3,8 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_tags
     - field.storage.node.field_descriptive_metadata
+    - field.storage.node.field_tags
     - search_api.server.esmero_solr
     - core.entity_view_mode.node.digital_object_image_only_for_carousel
   module:
@@ -115,6 +115,14 @@ field_settings:
     dependencies:
       config:
         - field.storage.node.field_descriptive_metadata
+  as_image_name_0:
+    label: '🍓 Strawberry (Descriptive Metadata source) » as_image_name_0'
+    datasource_id: 'entity:node'
+    property_path: 'field_descriptive_metadata:as_image_name_0'
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_descriptive_metadata
   author:
     label: 'Author name'
     datasource_id: 'entity:node'
@@ -153,6 +161,22 @@ field_settings:
     dependencies:
       config:
         - field.storage.node.field_descriptive_metadata
+  collection:
+    label: '🍓 Strawberry (Descriptive Metadata source) » collection'
+    datasource_id: 'entity:node'
+    property_path: 'field_descriptive_metadata:collection'
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_descriptive_metadata
+  collection_1:
+    label: Collection
+    datasource_id: 'entity:node'
+    property_path: 'field_descriptive_metadata:collection'
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_descriptive_metadata
   created:
     label: 'Authored on'
     datasource_id: 'entity:node'
@@ -173,6 +197,14 @@ field_settings:
     label: '🍓 Strawberry (Descriptive Metadata source) » digital_object_type'
     datasource_id: 'entity:node'
     property_path: 'field_descriptive_metadata:digital_object_type'
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_descriptive_metadata
+  display_as_book:
+    label: '🍓 Strawberry (Descriptive Metadata source) » display_as_book'
+    datasource_id: 'entity:node'
+    property_path: 'field_descriptive_metadata:display_as_book'
     type: string
     dependencies:
       config:
@@ -224,6 +256,22 @@ field_settings:
     dependencies:
       config:
         - field.storage.node.field_descriptive_metadata
+  language:
+    label: '🍓 Strawberry (Descriptive Metadata source) » language'
+    datasource_id: 'entity:node'
+    property_path: 'field_descriptive_metadata:language'
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_descriptive_metadata
+  language_1:
+    label: Language
+    datasource_id: 'entity:node'
+    property_path: 'field_descriptive_metadata:language'
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_descriptive_metadata
   legacy_pid:
     label: '🍓 Strawberry (Descriptive Metadata source) » legacy_pid'
     datasource_id: 'entity:node'
@@ -245,6 +293,14 @@ field_settings:
     datasource_id: 'entity:node'
     property_path: 'field_descriptive_metadata:local_identifier'
     type: text
+    dependencies:
+      config:
+        - field.storage.node.field_descriptive_metadata
+  modified_date:
+    label: '🍓 Strawberry (Descriptive Metadata source) » modified_date'
+    datasource_id: 'entity:node'
+    property_path: 'field_descriptive_metadata:modified_date'
+    type: date
     dependencies:
       config:
         - field.storage.node.field_descriptive_metadata
@@ -295,6 +351,22 @@ field_settings:
     label: '🍓 Strawberry (Descriptive Metadata source) » note'
     datasource_id: 'entity:node'
     property_path: 'field_descriptive_metadata:note'
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_descriptive_metadata
+  object_type:
+    label: '🍓 Strawberry (Descriptive Metadata source) » object_type'
+    datasource_id: 'entity:node'
+    property_path: 'field_descriptive_metadata:object_type'
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_descriptive_metadata
+  object_type_1:
+    label: 'Object type'
+    datasource_id: 'entity:node'
+    property_path: 'field_descriptive_metadata:object_type'
     type: text
     dependencies:
       config:
@@ -374,6 +446,46 @@ field_settings:
     dependencies:
       config:
         - field.storage.node.field_descriptive_metadata
+  represents_parent_1:
+    label: '🍓 Strawberry (Descriptive Metadata source) » represents_parent'
+    datasource_id: 'entity:node'
+    property_path: 'field_descriptive_metadata:represents_parent'
+    type: boolean
+    dependencies:
+      config:
+        - field.storage.node.field_descriptive_metadata
+  sbf_creator:
+    label: '🍓 Strawberry (Descriptive Metadata source) » sbf_creator'
+    datasource_id: 'entity:node'
+    property_path: 'field_descriptive_metadata:sbf_creator'
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_descriptive_metadata
+  sbf_creator_1:
+    label: Creator
+    datasource_id: 'entity:node'
+    property_path: 'field_descriptive_metadata:sbf_creator'
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_descriptive_metadata
+  sbf_date:
+    label: '🍓 Strawberry (Descriptive Metadata source) » sbf_date'
+    datasource_id: 'entity:node'
+    property_path: 'field_descriptive_metadata:sbf_date'
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_descriptive_metadata
+  sbf_date_1:
+    label: 'Production date'
+    datasource_id: 'entity:node'
+    property_path: 'field_descriptive_metadata:sbf_date'
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_descriptive_metadata
   sbf_entity_reference_partof_memberof_title:
     label: '🍓 Strawberry (Descriptive Metadata source) » ispartof » ismemberof » Title'
     datasource_id: 'entity:node'
@@ -409,6 +521,14 @@ field_settings:
     datasource_id: strawberryfield_flavor_datasource
     property_path: 'target_fileid:uri'
     type: string
+  sbf_internal_type_type:
+    label: '🍓 Strawberry (Descriptive Metadata source) » sbf_internal_type_type'
+    datasource_id: 'entity:node'
+    property_path: 'field_descriptive_metadata:sbf_internal_type_type'
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_descriptive_metadata
   sbf_label:
     label: 'SBF A Label'
     datasource_id: strawberryfield_flavor_datasource
@@ -507,6 +627,22 @@ field_settings:
     datasource_id: 'entity:node'
     property_path: 'field_descriptive_metadata:str_flatten_keys'
     type: string
+    dependencies:
+      config:
+        - field.storage.node.field_descriptive_metadata
+  subject:
+    label: '🍓 Strawberry (Descriptive Metadata source) » subject'
+    datasource_id: 'entity:node'
+    property_path: 'field_descriptive_metadata:subject'
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_descriptive_metadata
+  subject_1:
+    label: Subject
+    datasource_id: 'entity:node'
+    property_path: 'field_descriptive_metadata:subject'
+    type: text
     dependencies:
       config:
         - field.storage.node.field_descriptive_metadata
@@ -621,6 +757,14 @@ field_settings:
     datasource_id: strawberryfield_flavor_datasource
     property_path: 'target_fileid:uri'
     type: string
+  uri_1:
+    label: '🍓 Strawberry (Descriptive Metadata source) » uri'
+    datasource_id: 'entity:node'
+    property_path: 'field_descriptive_metadata:uri'
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_descriptive_metadata
   uuid:
     label: 'SBF Parent Node » UUID'
     datasource_id: strawberryfield_flavor_datasource

@@ -411,9 +411,12 @@ display:
               administrator: '0'
               metadata_api: '0'
               metadata_pro: '0'
+              test_role: '0'
+              viewing: '0'
             placeholder: ''
             expose_fields: 1
             searched_fields_id: sbf_advanced_search_api_fulltext_searched_fields
+            value_maxlength: '128'
             advanced_search_fields_multiple: 1
             advanced_search_fields_count: '4'
             advanced_search_fields_count_min: '1'
@@ -421,7 +424,6 @@ display:
             advanced_search_operator_id: sbf_advanced_search_api_fulltext_group_operator
             advanced_search_fields_add_one_label: add
             advanced_search_fields_remove_one_label: remove
-            value_maxlength: '128'
             advanced_search_classic_mode: 0
             advanced_search_multiple_remove: 0
           is_grouped: false
@@ -439,15 +441,18 @@ display:
           parse_mode: terms
           min_length: ''
           fields:
-            local_identifier: local_identifier
-            name_1: name_1
+            collection_1: collection_1
+            language_1: language_1
+            object_type_1: object_type_1
             rendered_item: rendered_item
-            title: title
+            sbf_creator_1: sbf_creator_1
+            sbf_date_1: sbf_date_1
+            subject_1: subject_1
           advanced_search_fields_add_one_label:
             - 'add one'
           advanced_search_fields_remove_one_label:
             - 'remove one'
-          fields_label_replace: "rendered_item|Rendered HTML Output\r\ntitle|Title (full text)\r\nname_1|Names/Agents\r\nlocal_identifier|Local Identifier\r\nnote|Note\r\nfulltext|Strawberryfield Flavor Datasource » SBF Unmodified data body no highlight\r\nfulltext_with_original_ocr|Strawberryfield Flavor Datasource » SBF Unmodified data body\r\nlabel_1|Title\r\nlegacy_pid|Content » 🍓 Strawberry (Descriptive Metadata source) » legacy_pid\r\nocr_text|Strawberryfield Flavor Datasource » SBF Full OCR with Hightlight\r\nsbf_label|Strawberryfield Flavor Datasource » SBF A Label\r\nsbf_plaintext|Strawberryfield Flavor Datasource » SBF Data body containing plain text\r\ntitle_2|Strawberryfield Flavor Datasource » SBF Parent Node » Title\r\ntitle_autocomplete|Content » Title for autocomplete (ngram)\r\ntitle_info_alternative_title|Content » 🍓 Strawberry (Descriptive Metadata source) » title_info_alternative_title\r\ntitle_unstemmed|Content » Title Unstemmed"
+          fields_label_replace: "rendered_item|Full text\r\ntitle|Title (full text)\r\nname_1|Names/Agents\r\nlocal_identifier|Local Identifier\r\nnote|Note\r\nfulltext|Strawberryfield Flavor Datasource » SBF Unmodified data body no highlight\r\nfulltext_with_original_ocr|Strawberryfield Flavor Datasource » SBF Unmodified data body\r\nlabel_1|Title\r\nlegacy_pid|Content » 🍓 Strawberry (Descriptive Metadata source) » legacy_pid\r\nocr_text|Strawberryfield Flavor Datasource » SBF Full OCR with Hightlight\r\nsbf_label|Strawberryfield Flavor Datasource » SBF A Label\r\nsbf_plaintext|Strawberryfield Flavor Datasource » SBF Data body containing plain text\r\ntitle_2|Strawberryfield Flavor Datasource » SBF Parent Node » Title\r\ntitle_autocomplete|Content » Title for autocomplete (ngram)\r\ntitle_info_alternative_title|Content » 🍓 Strawberry (Descriptive Metadata source) » title_info_alternative_title\r\ntitle_unstemmed|Content » Title Unstemmed\r\ncollection_1|Collection\r\nlanguage_1|Language\r\nobject_type_1|Object type\r\nsbf_creator_1|Creator\r\nsubject_1|Subject\r\nsbf_date_1|Production date"
         type:
           id: type
           table: search_api_index_default_solr_index

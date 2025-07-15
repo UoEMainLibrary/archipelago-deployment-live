@@ -1,0 +1,12 @@
+uuid: d8970372-5cb3-4bfb-86ce-dc8b3f7613e3
+langcode: en
+status: true
+dependencies: {  }
+id: internal_type
+label: 'Internal Type'
+pluginid: jmespath
+pluginconfig:
+  source_key: internal_type.type
+  is_date: false
+  exposed_key: sbf_internal_type_type
+active: true
