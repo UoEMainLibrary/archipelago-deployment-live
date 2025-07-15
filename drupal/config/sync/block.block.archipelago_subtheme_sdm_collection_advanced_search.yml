@@ -1,0 +1,24 @@
+uuid: 42c5be76-83d0-4d49-a4db-d48cb1e2a9a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.strawberry_descriptive_metadata_collection_advance
+  module:
+    - facets
+  theme:
+    - archipelago_subtheme
+id: archipelago_subtheme_sdm_collection_advanced_search
+theme: archipelago_subtheme
+region: sidebar_second
+weight: -19
+provider: null
+plugin: 'facet_block:strawberry_descriptive_metadata_collection_advance'
+settings:
+  id: 'facet_block:strawberry_descriptive_metadata_collection_advance'
+  label: 'Sub Collection'
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: archipelago_subtheme_sdm_collection_advanced_search
+visibility: {  }

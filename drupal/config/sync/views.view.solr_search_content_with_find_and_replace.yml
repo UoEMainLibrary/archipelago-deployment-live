@@ -544,6 +544,7 @@ display:
         title: 'Advanced Batch Find and Replace'
         description: 'Allows you to find and replace Metadata '
         weight: 10
+        enabled: false
         expanded: false
         menu_name: tools
         parent: 'menu_link_content:a580dad6-5932-4f9d-bdaa-06b5563c386c'

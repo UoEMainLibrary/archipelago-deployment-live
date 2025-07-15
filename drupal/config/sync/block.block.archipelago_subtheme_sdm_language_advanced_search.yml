@@ -1,0 +1,24 @@
+uuid: 697938d6-ffc6-4a7e-b75a-760e2f8c3f98
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.strawberry_descriptive_metadata_language_advanced
+  module:
+    - facets
+  theme:
+    - archipelago_subtheme
+id: archipelago_subtheme_sdm_language_advanced_search
+theme: archipelago_subtheme
+region: sidebar_second
+weight: -9
+provider: null
+plugin: 'facet_block:strawberry_descriptive_metadata_language_advanced'
+settings:
+  id: 'facet_block:strawberry_descriptive_metadata_language_advanced'
+  label: Language
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: archipelago_subtheme_sdm_language_advanced_search
+visibility: {  }

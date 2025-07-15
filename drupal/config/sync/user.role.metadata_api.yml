@@ -68,6 +68,7 @@ permissions:
   - 'administer shortcuts'
   - 'administer taxonomy'
   - 'administer workflows'
+  - 'bypass node access'
   - 'create article content'
   - 'create audio media'
   - 'create content translations'

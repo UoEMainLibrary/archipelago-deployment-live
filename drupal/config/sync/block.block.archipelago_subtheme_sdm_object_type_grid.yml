@@ -1,0 +1,24 @@
+uuid: 7dffb5c8-2869-4a00-a6bd-14802ce839b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.strawberry_descriptive_metadata_object_type_grid
+  module:
+    - facets
+  theme:
+    - archipelago_subtheme
+id: archipelago_subtheme_sdm_object_type_grid
+theme: archipelago_subtheme
+region: sidebar_second
+weight: -5
+provider: null
+plugin: 'facet_block:strawberry_descriptive_metadata_object_type_grid'
+settings:
+  id: 'facet_block:strawberry_descriptive_metadata_object_type_grid'
+  label: 'Object type'
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: archipelago_subtheme_sdm_object_type_grid
+visibility: {  }

@@ -1,0 +1,12 @@
+uuid: 1071788f-5ede-430e-8ab3-883605020448
+langcode: en
+status: true
+dependencies: {  }
+id: media_file_name
+label: media_file_name
+pluginid: jmespath
+pluginconfig:
+  source_key: '"as:image".*.name | [0]'
+  is_date: false
+  exposed_key: as_image_name_0
+active: true

@@ -26,11 +26,11 @@ definitions:
     expanded: false
     enabled: true
   node__add_page:
+    enabled: false
     menu_name: tools
     parent: 'menu_link_content:a580dad6-5932-4f9d-bdaa-06b5563c386c'
     weight: -50
     expanded: false
-    enabled: true
   tracker__page:
     menu_name: tools
     parent: ''

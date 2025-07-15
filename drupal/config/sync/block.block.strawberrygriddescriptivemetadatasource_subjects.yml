@@ -1,6 +1,6 @@
 uuid: 70275636-9f34-450c-8e33-96a08a1ded22
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - facets.facet.grid_subject_labels
@@ -12,7 +12,7 @@ dependencies:
 id: strawberrygriddescriptivemetadatasource_subjects
 theme: archipelago_subtheme
 region: sidebar_second
-weight: -9
+weight: 4
 provider: null
 plugin: 'facet_block:grid_subject_labels'
 settings:

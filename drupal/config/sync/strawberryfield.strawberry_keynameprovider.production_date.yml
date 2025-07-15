@@ -1,0 +1,12 @@
+uuid: cf67bd3d-c217-4110-9c9b-a2ee831487a5
+langcode: en
+status: true
+dependencies: {  }
+id: production_date
+label: 'Production Date'
+pluginid: jmespath
+pluginconfig:
+  source_key: date
+  is_date: false
+  exposed_key: date
+active: true

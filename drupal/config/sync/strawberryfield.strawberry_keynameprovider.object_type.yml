@@ -1,0 +1,12 @@
+uuid: 167d829c-a4b5-41a8-8792-2cf1b9cb1100
+langcode: en
+status: true
+dependencies: {  }
+id: object_type
+label: 'Object Type'
+pluginid: jmespath
+pluginconfig:
+  source_key: object_type
+  is_date: false
+  exposed_key: object_type
+active: true

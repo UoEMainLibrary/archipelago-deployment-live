@@ -1,0 +1,14 @@
+uuid: bcaee7ee-2419-4fa1-bbd3-7ddaab4e4cfd
+langcode: en
+status: true
+dependencies:
+  module:
+    - content_moderation
+    - node
+id: viewing
+label: Viewing
+weight: 5
+is_admin: null
+permissions:
+  - 'view any unpublished content'
+  - 'view own unpublished content'

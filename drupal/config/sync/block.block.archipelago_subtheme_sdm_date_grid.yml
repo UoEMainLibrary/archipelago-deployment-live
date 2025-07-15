@@ -1,0 +1,24 @@
+uuid: c74a9047-85e2-4f4b-bb6a-3f31a9d8ea45
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.strawberry_descriptive_metadata_date_grid
+  module:
+    - facets
+  theme:
+    - archipelago_subtheme
+id: archipelago_subtheme_sdm_date_grid
+theme: archipelago_subtheme
+region: sidebar_second
+weight: -14
+provider: null
+plugin: 'facet_block:strawberry_descriptive_metadata_date_grid'
+settings:
+  id: 'facet_block:strawberry_descriptive_metadata_date_grid'
+  label: 'Production date'
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: archipelago_subtheme_sdm_date_grid
+visibility: {  }

@@ -1,0 +1,12 @@
+uuid: a234e657-a67a-4a69-a46d-cf0063812166
+langcode: en
+status: true
+dependencies: {  }
+id: creator
+label: Creator
+pluginid: jmespath
+pluginconfig:
+  source_key: creator
+  is_date: false
+  exposed_key: creator
+active: true

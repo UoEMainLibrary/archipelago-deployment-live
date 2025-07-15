@@ -1,0 +1,24 @@
+uuid: f47340d1-229d-45a5-8e2e-f9e07265a019
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.strawberry_descriptive_metadata_creator_grid
+  module:
+    - facets
+  theme:
+    - archipelago_subtheme
+id: archipelago_subtheme_sdm_creator_grid
+theme: archipelago_subtheme
+region: sidebar_second
+weight: -12
+provider: null
+plugin: 'facet_block:strawberry_descriptive_metadata_creator_grid'
+settings:
+  id: 'facet_block:strawberry_descriptive_metadata_creator_grid'
+  label: Creator
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: archipelago_subtheme_sdm_creator_grid
+visibility: {  }

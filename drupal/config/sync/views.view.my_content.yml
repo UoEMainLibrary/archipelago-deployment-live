@@ -675,6 +675,7 @@ display:
         title: 'My Content'
         description: ''
         weight: -49
+        enabled: false
         expanded: false
         menu_name: tools
         parent: 'menu_link_content:a580dad6-5932-4f9d-bdaa-06b5563c386c'

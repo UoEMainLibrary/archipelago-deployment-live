@@ -1,6 +1,6 @@
 uuid: 06db4cb7-9897-42e9-a45c-77df978f846c
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - facets.facet.date_of_original
@@ -12,7 +12,7 @@ dependencies:
 id: dateoforiginal
 theme: archipelago_subtheme
 region: sidebar_second
-weight: -16
+weight: -1
 provider: null
 plugin: 'facet_block:date_of_original'
 settings:

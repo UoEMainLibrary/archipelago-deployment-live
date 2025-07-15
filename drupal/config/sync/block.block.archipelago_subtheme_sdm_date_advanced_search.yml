@@ -1,0 +1,24 @@
+uuid: 76067ced-2073-4993-9493-4819e87d3705
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.strawberry_descriptive_metadata_date_advanced
+  module:
+    - facets
+  theme:
+    - archipelago_subtheme
+id: archipelago_subtheme_sdm_date_advanced_search
+theme: archipelago_subtheme
+region: sidebar_second
+weight: -15
+provider: null
+plugin: 'facet_block:strawberry_descriptive_metadata_date_advanced'
+settings:
+  id: 'facet_block:strawberry_descriptive_metadata_date_advanced'
+  label: 'Production date'
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: archipelago_subtheme_sdm_date_advanced_search
+visibility: {  }

@@ -1,0 +1,24 @@
+uuid: e9356334-79d4-4924-8e2c-1812444715f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.strawberry_descriptive_metadata_source_subject
+  module:
+    - facets
+  theme:
+    - archipelago_subtheme
+id: archipelago_subtheme_sdm_subject
+theme: archipelago_subtheme
+region: sidebar_second
+weight: -4
+provider: null
+plugin: 'facet_block:strawberry_descriptive_metadata_source_subject'
+settings:
+  id: 'facet_block:strawberry_descriptive_metadata_source_subject'
+  label: Subjects
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: archipelago_subtheme_sdm_subject
+visibility: {  }

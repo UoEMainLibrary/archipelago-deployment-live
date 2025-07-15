@@ -1,6 +1,6 @@
 uuid: bba1d69c-2c59-4fae-a271-f1724250e079
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - facets.facet.strawberry_descriptive_metadata_source_agents_grid
@@ -12,7 +12,7 @@ dependencies:
 id: strawberrydescriptivemetadatasourceagentsgrid
 theme: archipelago_subtheme
 region: sidebar_second
-weight: -6
+weight: 7
 provider: null
 plugin: 'facet_block:strawberry_descriptive_metadata_source_agents_grid'
 settings:

@@ -1,0 +1,12 @@
+uuid: 1a02a939-cb8c-41d5-9713-402284fb7ff6
+langcode: en
+status: true
+dependencies: {  }
+id: subject
+label: Subject
+pluginid: jmespath
+pluginconfig:
+  source_key: subject
+  is_date: false
+  exposed_key: subject
+active: true

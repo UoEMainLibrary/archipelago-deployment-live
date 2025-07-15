@@ -1,0 +1,24 @@
+uuid: b802d288-dc2b-4dfd-bdfa-84b6d547a6e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.strawberry_descriptive_objecttype_advanced
+  module:
+    - facets
+  theme:
+    - archipelago_subtheme
+id: archipelago_subtheme_sdm_object_type_advanced_search
+theme: archipelago_subtheme
+region: sidebar_second
+weight: -6
+provider: null
+plugin: 'facet_block:strawberry_descriptive_objecttype_advanced'
+settings:
+  id: 'facet_block:strawberry_descriptive_objecttype_advanced'
+  label: 'Object type'
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: archipelago_subtheme_sdm_object_type_advanced_search
+visibility: {  }
