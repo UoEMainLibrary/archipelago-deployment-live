@@ -1,0 +1,18 @@
+uuid: 71019488-dad6-4cb6-ac18-988fa7b8a08b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.aip
+id: node.aip.title
+field_name: title
+entity_type: node
+bundle: aip
+label: field_title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

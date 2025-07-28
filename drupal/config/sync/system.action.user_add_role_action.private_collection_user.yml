@@ -1,0 +1,14 @@
+uuid: 1e97c87e-19b3-4e0e-85dc-dc359103e879
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.private_collection_user
+  module:
+    - user
+id: user_add_role_action.private_collection_user
+label: 'Add the Private Collection User role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: private_collection_user

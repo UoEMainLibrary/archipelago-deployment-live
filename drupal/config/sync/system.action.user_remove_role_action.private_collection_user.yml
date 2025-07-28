@@ -1,0 +1,14 @@
+uuid: e57f832b-cb57-4a4f-b85e-b6c41a45cd4f
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.private_collection_user
+  module:
+    - user
+id: user_remove_role_action.private_collection_user
+label: 'Remove the Private Collection User role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: private_collection_user

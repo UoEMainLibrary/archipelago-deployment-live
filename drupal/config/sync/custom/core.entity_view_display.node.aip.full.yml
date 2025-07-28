@@ -1,0 +1,32 @@
+uuid: 73eac2b9-d255-4946-a171-704ef7cde412
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.aip.field_descriptive_metadata
+    - node.type.aip
+  module:
+    - strawberryfield
+    - user
+id: node.aip.full
+targetEntityType: node
+bundle: aip
+mode: full
+content:
+  field_descriptive_metadata:
+    type: strawberry_default_formatter
+    label: above
+    settings:
+      limit_access: edit
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

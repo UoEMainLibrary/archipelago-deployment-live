@@ -1,0 +1,40 @@
+uuid: 881dca56-33fb-46d2-9e91-ecb50255f9e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.strawberryfield_processed_metadata
+    - field.field.node.aip.field_descriptive_metadata
+    - node.type.aip
+  module:
+    - format_strawberryfield
+    - user
+id: node.aip.strawberryfield_processed_metadata
+targetEntityType: node
+bundle: aip
+mode: strawberryfield_processed_metadata
+content:
+  field_descriptive_metadata:
+    type: strawberry_metadata_formatter
+    label: hidden
+    settings:
+      iiif_base_url: 'http://localhost:8183/iiif/2'
+      iiif_base_url_internal: 'http://esmero-cantaloupe:8182/iiif/2'
+      use_iiif_globals: '1'
+      label: 'Descriptive Metadata'
+      specs: 'http://schema.org'
+      metadatadisplayentity_uuid: 0ccc85b4-ed72-4c58-b585-ba652ebcfcaf
+      metadatadisplayentity_uselabel: '0'
+      upload_json_key_source: ''
+      embargo_json_key_source: ''
+    third_party_settings: {  }
+    weight: 4
+    region: second
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

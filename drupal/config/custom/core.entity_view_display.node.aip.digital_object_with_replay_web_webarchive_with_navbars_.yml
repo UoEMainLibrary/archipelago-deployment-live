@@ -1,0 +1,32 @@
+uuid: 5ccc4e7e-168d-43e5-baad-40304b798fd7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.digital_object_with_replay_web_webarchive_with_navbars_
+    - field.field.node.aip.field_descriptive_metadata
+    - node.type.aip
+  module:
+    - strawberryfield
+    - user
+id: node.aip.digital_object_with_replay_web_webarchive_with_navbars_
+targetEntityType: node
+bundle: aip
+mode: digital_object_with_replay_web_webarchive_with_navbars_
+content:
+  field_descriptive_metadata:
+    type: strawberry_default_formatter
+    label: hidden
+    settings:
+      limit_access: edit
+    third_party_settings: {  }
+    weight: 4
+    region: ds_content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

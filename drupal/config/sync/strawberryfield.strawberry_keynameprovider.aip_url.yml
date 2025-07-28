@@ -1,0 +1,12 @@
+uuid: d15e9434-abfb-430f-9417-935fa57bc5f9
+langcode: en
+status: true
+dependencies: {  }
+id: aip_url
+label: 'aip url'
+pluginid: jmespath
+pluginconfig:
+  source_key: '"as:document".*.url'
+  is_date: false
+  exposed_key: as_document_url
+active: true

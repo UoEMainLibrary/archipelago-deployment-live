@@ -1,0 +1,9 @@
+uuid: a363e573-67eb-402a-a5ae-398b28ca01ce
+langcode: en
+status: true
+dependencies: {  }
+id: private_collection_user
+label: 'Private Collection User'
+weight: 5
+is_admin: null
+permissions: {  }

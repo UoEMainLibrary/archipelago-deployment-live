@@ -1,0 +1,12 @@
+uuid: a9efbd84-2fc6-42af-b1d3-214744036ad3
+langcode: en
+status: true
+dependencies: {  }
+id: collectiontype
+label: collectiontype
+pluginid: jmespath
+pluginconfig:
+  source_key: "[type == 'Collection']"
+  is_date: false
+  exposed_key: type_collection
+active: true

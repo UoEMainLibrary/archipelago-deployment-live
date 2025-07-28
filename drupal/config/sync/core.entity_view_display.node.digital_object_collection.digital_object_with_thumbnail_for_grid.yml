@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.digital_object_with_thumbnail_for_grid
     - field.field.node.digital_object_collection.body
+    - field.field.node.digital_object_collection.field_collection_access
     - field.field.node.digital_object_collection.field_descriptive_metadata
     - node.type.digital_object_collection
   module:
@@ -77,5 +78,6 @@ content:
 hidden:
   body: true
   content_moderation_control: true
+  field_collection_access: true
   langcode: true
   links: true

@@ -1,0 +1,23 @@
+uuid: 4fdae36d-7b80-4761-aa49-3e46f368cbef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descriptive_metadata
+    - node.type.aip
+  module:
+    - strawberryfield
+id: node.aip.field_descriptive_metadata
+field_name: field_descriptive_metadata
+entity_type: node
+bundle: aip
+label: '🍓 Strawberry (Descriptive Metadata source)'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '{}'
+default_value_callback: ''
+settings: {  }
+field_type: strawberryfield_field

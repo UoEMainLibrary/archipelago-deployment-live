@@ -1,0 +1,40 @@
+uuid: 7630c4f3-fc36-4010-b981-af4019c23e9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.digital_object_image_only_for_carousel
+    - field.field.node.aip.field_descriptive_metadata
+    - node.type.aip
+  module:
+    - format_strawberryfield
+    - user
+id: node.aip.digital_object_image_only_for_carousel
+targetEntityType: node
+bundle: aip
+mode: digital_object_image_only_for_carousel
+content:
+  field_descriptive_metadata:
+    type: strawberry_metadata_formatter
+    label: hidden
+    settings:
+      iiif_base_url: 'http://localhost:8183/iiif/2'
+      iiif_base_url_internal: 'http://esmero-cantaloupe:8182/iiif/2'
+      use_iiif_globals: '1'
+      label: 'Descriptive Metadata'
+      specs: 'http://bootstrap.org'
+      metadatadisplayentity_uuid: df5a93ae-20e0-490f-a212-1b9e8ed3670f
+      metadatadisplayentity_uselabel: '0'
+      upload_json_key_source: ''
+      embargo_json_key_source: ''
+    third_party_settings: {  }
+    weight: 0
+    region: ds_content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

@@ -1,0 +1,18 @@
+uuid: cf1fd342-aab7-4b17-8e77-3d8d50004a1f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: AIP
+type: aip
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

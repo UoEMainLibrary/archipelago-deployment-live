@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.digital_object_collection.body
+    - field.field.node.digital_object_collection.field_collection_access
     - field.field.node.digital_object_collection.field_descriptive_metadata
     - node.type.digital_object_collection
   module:
@@ -59,6 +60,14 @@ targetEntityType: node
 bundle: digital_object_collection
 mode: default
 content:
+  field_collection_access:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
   field_descriptive_metadata:
     type: strawberry_media_formatter
     label: hidden

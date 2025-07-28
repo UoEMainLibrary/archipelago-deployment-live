@@ -1,0 +1,40 @@
+uuid: 25a2976a-0a09-43a9-90dc-45801b36f373
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.digital_object_oral_history_with_multiple_media
+    - field.field.node.aip.field_descriptive_metadata
+    - node.type.aip
+  module:
+    - format_strawberryfield
+    - user
+id: node.aip.digital_object_oral_history_with_multiple_media
+targetEntityType: node
+bundle: aip
+mode: digital_object_oral_history_with_multiple_media
+content:
+  field_descriptive_metadata:
+    type: strawberry_metadata_formatter
+    label: hidden
+    settings:
+      iiif_base_url: 'http://localhost:8183/iiif/2'
+      iiif_base_url_internal: 'http://esmero-cantaloupe:8182/iiif/2'
+      use_iiif_globals: '1'
+      label: 'Descriptive Metadata'
+      specs: 'http://schema.org'
+      metadatadisplayentity_uuid: bde1cb38-e1b8-4f2d-bc1c-bff646d2e8b7
+      metadatadisplayentity_uselabel: '0'
+      upload_json_key_source: ''
+      embargo_json_key_source: ''
+    third_party_settings: {  }
+    weight: 4
+    region: ds_content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true
