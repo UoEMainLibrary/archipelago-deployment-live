@@ -1,0 +1,19 @@
+uuid: 4ad84202-a4b7-402d-868f-e39471c18b4c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_backend_id
+    - node.type.digital_object_collection
+id: node.digital_object_collection.field_backend_id
+field_name: field_backend_id
+entity_type: node
+bundle: digital_object_collection
+label: backend_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

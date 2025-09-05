@@ -1,0 +1,12 @@
+uuid: f39ab6ed-11c2-403c-ab50-00ce20c7b010
+langcode: en
+status: true
+dependencies: {  }
+id: creator
+label: Creator
+pluginid: jmespath
+pluginconfig:
+  source_key: creator
+  is_date: false
+  exposed_key: sbf_creator
+active: true

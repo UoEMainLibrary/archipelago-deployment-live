@@ -1,0 +1,12 @@
+uuid: 5472a394-2324-4d4f-9b40-ba20aee4b9e4
+langcode: en
+status: true
+dependencies: {  }
+id: child_book_status
+label: 'Child book status'
+pluginid: jmespath
+pluginconfig:
+  source_key: display_as_book
+  is_date: false
+  exposed_key: display_as_book
+active: true

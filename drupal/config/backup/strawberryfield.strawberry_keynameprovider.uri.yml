@@ -1,0 +1,12 @@
+uuid: 5fc8a8fd-f484-449d-ba0c-5569376db75a
+langcode: en
+status: true
+dependencies: {  }
+id: uri
+label: uri
+pluginid: jmespath
+pluginconfig:
+  source_key: uri
+  is_date: false
+  exposed_key: uri
+active: true

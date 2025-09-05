@@ -1,0 +1,12 @@
+uuid: cf157de1-2956-49af-9c15-ea68010fb27f
+langcode: en
+status: true
+dependencies: {  }
+id: language
+label: Language
+pluginid: jmespath
+pluginconfig:
+  source_key: language
+  is_date: false
+  exposed_key: language
+active: true

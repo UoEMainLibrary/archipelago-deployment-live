@@ -1,0 +1,12 @@
+uuid: 2ad3bb21-8ebc-449f-be16-fd142c4eca2a
+langcode: en
+status: true
+dependencies: {  }
+id: modified_date
+label: 'Modified Date'
+pluginid: jmespath
+pluginconfig:
+  source_key: modified_date
+  is_date: true
+  exposed_key: modified_date
+active: true
