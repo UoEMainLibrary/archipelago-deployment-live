@@ -17,6 +17,10 @@
         {
              "type": "composer",
              "url": "https://asset-packagist.org"
+        },
+        {
+             "type": "vcs",
+             "url": "https://github.com/UoEMainLibrary/adapted-archipelago-chiloe-theme"
         }
     ],
     "require": {
@@ -122,7 +126,8 @@
         "drupal/views_load_more": "^2.0@RC",
         "archipelago/archipelago_subtheme_chiloe": "dev-main",
         "ankitpokhrel/tus-php": "^2.4",
-        "drupal/codemirror_editor": "^2.0"
+        "drupal/codemirror_editor": "^2.0",
+	"npm-asset/uoe--edgel": "^5.3"
     },
     "require-dev": {
         "drupal/core-dev": "^10.4",
