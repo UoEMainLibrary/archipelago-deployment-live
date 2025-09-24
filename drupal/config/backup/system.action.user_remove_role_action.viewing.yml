@@ -1,0 +1,14 @@
+uuid: 54f55830-32ad-48cc-9eb1-b66600d72047
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.viewing
+  module:
+    - user
+id: user_remove_role_action.viewing
+label: 'Remove the Viewing role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: viewing

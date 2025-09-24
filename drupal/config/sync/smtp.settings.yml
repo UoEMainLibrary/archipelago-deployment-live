@@ -1,3 +1,4 @@
+langcode: en
 smtp_on: true
 smtp_host: bulkmailrelay.ucs.ed.ac.uk
 smtp_hostbackup: ''

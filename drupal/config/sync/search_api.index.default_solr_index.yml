@@ -3,17 +3,16 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_tags
-    - field.storage.node.field_descriptive_metadata
-    - search_api.server.esmero_solr
     - core.entity_view_mode.node.digital_object_image_only_for_carousel
+    - field.storage.node.field_descriptive_metadata
+    - field.storage.node.field_tags
+    - search_api.server.esmero_solr
   module:
-    - search_api_solr
-    - node
-    - user
-    - strawberryfield
-    - search_api
     - file
+    - node
+    - search_api_solr
+    - strawberryfield
+    - user
 third_party_settings:
   search_api_solr:
     finalize: false

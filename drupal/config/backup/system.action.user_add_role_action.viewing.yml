@@ -1,0 +1,14 @@
+uuid: 130e46f3-0944-4f38-beff-2abd16e7b2db
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.viewing
+  module:
+    - user
+id: user_add_role_action.viewing
+label: 'Add the Viewing role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: viewing

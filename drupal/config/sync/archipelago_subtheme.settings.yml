@@ -1,5 +1,6 @@
 _core:
   default_config_hash: LdPjc1VCTO3_q56LqMexIbDmRvhlTEdTFHajPe4laUs
+langcode: en
 favicon:
   mimetype: image/png
   path: 'public://ArchipelagoCommonsLogo_favicon-32x32.png'
