@@ -1,0 +1,13 @@
+uuid: b57897fb-b731-4493-bf02-60b8d31c6b85
+langcode: en
+status: true
+dependencies: {  }
+id: rights_statement
+label: 'Rights statement'
+pluginid: jmespath
+pluginconfig:
+  source_key: rights_statement
+  is_date: false
+  is_date_range: false
+  exposed_key: rights_statement
+active: true

@@ -1,0 +1,25 @@
+uuid: a93723ad-2dbb-4cc6-938d-86335eb8a79a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:484e261f-d702-4fe7-bc1f-9099ee63e76c'
+  module:
+    - block_content
+  theme:
+    - archipelago_subtheme_chiloe
+id: archipelago_subtheme_chiloe_digitalcollections
+theme: archipelago_subtheme_chiloe
+region: header
+weight: -12
+provider: null
+plugin: 'block_content:484e261f-d702-4fe7-bc1f-9099ee63e76c'
+settings:
+  id: 'block_content:484e261f-d702-4fe7-bc1f-9099ee63e76c'
+  label: 'Digital Collections'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

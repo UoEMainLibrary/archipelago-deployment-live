@@ -12,13 +12,13 @@ palette:
   navbar_background: '#FFFFFF'
   navbar_secondary: '#830065'
   link: '#830065'
-  base: '#000000'
+  base: '#FFFFFF'
   buttonprimary: '#830065'
   textoverdark: '#f7f7f7'
   searchbutton: '#830065'
-logo: 'public://color/archipelago_subtheme-d53667ec/logo.svg'
+logo: 'public://color/archipelago_subtheme-4c592de1/logo.svg'
 stylesheets:
-  - 'public://color/archipelago_subtheme-d53667ec/colors.css'
+  - 'public://color/archipelago_subtheme-4c592de1/colors.css'
 files:
-  - 'public://color/archipelago_subtheme-d53667ec/logo.svg'
-  - 'public://color/archipelago_subtheme-d53667ec/colors.css'
+  - 'public://color/archipelago_subtheme-4c592de1/logo.svg'
+  - 'public://color/archipelago_subtheme-4c592de1/colors.css'

@@ -1,0 +1,32 @@
+uuid: ed997018-f3f7-451e-b564-d0dfce3a8292
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - system
+  theme:
+    - archipelago_subtheme_chiloe
+id: archipelago_subtheme_chiloe_sitebranding
+theme: archipelago_subtheme_chiloe
+region: top_header
+weight: -16
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article
+      page: page

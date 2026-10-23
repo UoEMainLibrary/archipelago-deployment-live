@@ -1,0 +1,13 @@
+uuid: d325e5a9-4128-4d22-87b3-bd62d9f173ae
+langcode: en
+status: true
+dependencies: {  }
+id: source_id
+label: 'Source id'
+pluginid: jmespath
+pluginconfig:
+  source_key: source_id
+  is_date: false
+  is_date_range: false
+  exposed_key: source_id
+active: true

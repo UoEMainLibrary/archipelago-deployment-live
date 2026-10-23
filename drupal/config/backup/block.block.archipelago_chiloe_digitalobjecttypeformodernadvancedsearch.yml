@@ -1,0 +1,24 @@
+uuid: d8766239-a429-49c4-b9ce-c5e3ecf7ff8a
+langcode: en
+status: false
+dependencies:
+  config:
+    - facets.facet.digital_object_type_for_modern_advanced_search
+  module:
+    - facets
+  theme:
+    - archipelago_subtheme_chiloe
+id: archipelago_chiloe_digitalobjecttypeformodernadvancedsearch
+theme: archipelago_subtheme_chiloe
+region: sidebar_first
+weight: -9
+provider: null
+plugin: 'facet_block:digital_object_type_for_modern_advanced_search'
+settings:
+  id: 'facet_block:digital_object_type_for_modern_advanced_search'
+  label: 'Digital Object Type for Modern Advanced Search'
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: archipelago_chiloe_digitalobjecttypeformodernadvancedsearch
+visibility: {  }

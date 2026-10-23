@@ -1,0 +1,18 @@
+uuid: df5579b2-4690-46d8-8045-fbdc19f6dbff
+langcode: en
+status: false
+dependencies:
+  theme:
+    - archipelago_subtheme_chiloe
+id: archipelago_subtheme_chiloe_pagetitle
+theme: archipelago_subtheme_chiloe
+region: top_header
+weight: -18
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

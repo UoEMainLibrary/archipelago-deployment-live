@@ -7,7 +7,6 @@ dependencies:
     - views.view.solr_search_content
   module:
     - views
-    - search_api_autocomplete
 id: solr_search_content
 label: 'Solr search content'
 index_id: default_solr_index
@@ -24,6 +23,10 @@ suggester_settings:
         digital_object: ''
         page: ''
         webform: ''
+    highlight:
+      enabled: false
+      field: ''
+    suggest_keys: false
   server:
     fields:
       - label

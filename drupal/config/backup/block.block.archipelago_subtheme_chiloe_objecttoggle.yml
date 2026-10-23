@@ -1,0 +1,25 @@
+uuid: f705cc81-a3ed-470e-9a93-ca23ff9b1d26
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:block_with_twig_templating_:7d515d5e-5bc5-49d3-a539-529c17a6ffe0'
+  module:
+    - block_content
+  theme:
+    - archipelago_subtheme_chiloe
+id: archipelago_subtheme_chiloe_objecttoggle
+theme: archipelago_subtheme_chiloe
+region: content
+weight: -16
+provider: null
+plugin: 'block_content:7d515d5e-5bc5-49d3-a539-529c17a6ffe0'
+settings:
+  id: 'block_content:7d515d5e-5bc5-49d3-a539-529c17a6ffe0'
+  label: 'Object toggle'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,24 @@
+uuid: c80ff44d-e4c7-43dc-b74e-94ce1693a85b
+langcode: en
+status: false
+dependencies:
+  config:
+    - facets.facet.is_memberof_grid
+  module:
+    - facets
+  theme:
+    - archipelago_subtheme_chiloe
+id: archipelago_subtheme_chiloe_sbf_ismemberoftitle_advanced
+theme: archipelago_subtheme_chiloe
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'facet_block:is_memberof_grid'
+settings:
+  id: 'facet_block:is_memberof_grid'
+  label: 'Part of Collection Advanced Search'
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: archipelago_subtheme_chiloe_sbf_ismemberoftitle_advanced
+visibility: {  }

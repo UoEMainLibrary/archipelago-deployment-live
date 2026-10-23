@@ -1,0 +1,25 @@
+uuid: 7399fa67-886c-4076-bde3-f3121233819d
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:block_with_twig_templating_:9aa72fb1-2817-44a7-8fb5-a3eb51166e83'
+  module:
+    - block_content
+  theme:
+    - archipelago_subtheme_chiloe
+id: archipelago_subtheme_chiloe_advancedsearchblock
+theme: archipelago_subtheme_chiloe
+region: highlighted
+weight: -10
+provider: null
+plugin: 'block_content:9aa72fb1-2817-44a7-8fb5-a3eb51166e83'
+settings:
+  id: 'block_content:9aa72fb1-2817-44a7-8fb5-a3eb51166e83'
+  label: 'Advanced Search Block'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

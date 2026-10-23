@@ -305,9 +305,9 @@ display:
         type: views_bootstrap_carousel
         options:
           grouping: {  }
-          interval: '5000'
+          interval: '10000'
           keyboard: 0
-          ride: 1
+          ride: 0
           navigation: 1
           indicators: 0
           pause: 1

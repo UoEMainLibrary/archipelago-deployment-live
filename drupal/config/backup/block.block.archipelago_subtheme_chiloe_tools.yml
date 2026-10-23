@@ -1,0 +1,25 @@
+uuid: 507d31cc-8e29-4c92-96db-239c5c5e1f45
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - archipelago_subtheme_chiloe
+id: archipelago_subtheme_chiloe_tools
+theme: archipelago_subtheme_chiloe
+region: top_header_form
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

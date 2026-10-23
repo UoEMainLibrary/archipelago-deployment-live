@@ -1,0 +1,20 @@
+uuid: afe25ff9-e702-438a-8ba2-e2e0a773d123
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - archipelago_subtheme_chiloe
+id: archipelago_subtheme_chiloe_breadcrumbs_2
+theme: archipelago_subtheme_chiloe
+region: highlighted
+weight: -11
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

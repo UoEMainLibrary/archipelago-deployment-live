@@ -1,0 +1,27 @@
+uuid: 239e3f68-3053-4f13-8580-6c5d59f05f04
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - archipelago_subtheme_chiloe
+_core:
+  default_config_hash: ZSpc3IoSaLd0PkB02nxjVPBMztIdsTdHek9SiGaqZ_c
+id: archipelago_subtheme_chiloe_page_title
+theme: archipelago_subtheme_chiloe
+region: featured_top
+weight: -14
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: '<front>'

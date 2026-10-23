@@ -125,7 +125,7 @@
         "league/openapi-psr7-validator": "0.22",
         "drupal/views_load_more": "^2.0@RC",
         "drupal/view_unpublished": "^1.3",
-        "archipelago/archipelago_subtheme_chiloe": "dev-main",
+        "archipelago/archipelago_subtheme_chiloe": "dev-test",
         "ankitpokhrel/tus-php": "^2.4",
         "drupal/codemirror_editor": "^2.0",
         "npm-asset/uoe--edgel": "^5.3"

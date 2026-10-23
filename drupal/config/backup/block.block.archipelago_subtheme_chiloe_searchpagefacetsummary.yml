@@ -1,0 +1,23 @@
+uuid: a66f4e8d-3e98-47c2-808b-c7ca8550278d
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets_summary.facets_summary.search_page_facet_summary
+  module:
+    - facets_summary
+  theme:
+    - archipelago_subtheme_chiloe
+id: archipelago_subtheme_chiloe_searchpagefacetsummary
+theme: archipelago_subtheme_chiloe
+region: content_top
+weight: -13
+provider: null
+plugin: 'facets_summary_block:search_page_facet_summary'
+settings:
+  id: 'facets_summary_block:search_page_facet_summary'
+  label: 'Search Page Facet Summary'
+  label_display: '0'
+  provider: facets_summary
+  context_mapping: {  }
+visibility: {  }

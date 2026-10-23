@@ -1,0 +1,20 @@
+uuid: 80d6fdbf-5e1b-4e40-acce-81441ae7f054
+langcode: en
+status: true
+dependencies:
+  theme:
+    - archipelago_subtheme_chiloe
+_core:
+  default_config_hash: HHryZVJbeKi9WnuBGC8FOhBZmBnk2G1H6KxFuy-rC9A
+id: archipelago_subtheme_chiloe_local_actions
+theme: archipelago_subtheme_chiloe
+region: content
+weight: -17
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

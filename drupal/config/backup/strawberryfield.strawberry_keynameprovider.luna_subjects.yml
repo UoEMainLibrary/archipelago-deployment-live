@@ -1,0 +1,13 @@
+uuid: 38ca72f3-a825-4273-951a-b6ec0accc4ba
+langcode: en
+status: true
+dependencies: {  }
+id: luna_subjects
+label: luna_subjects
+pluginid: jmespath
+pluginconfig:
+  source_key: '[luna_data."Subject Person", luna_data."Subject Role", luna_data."Subject Place", luna_data."Subject Event", luna_data."Subject Object", luna_data."Subject Category", luna_data."Subject Date", luna_data."Subject Period"][]'
+  is_date: false
+  is_date_range: false
+  exposed_key: luna_data_subjects
+active: true
