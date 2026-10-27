@@ -46,7 +46,8 @@ services:
     restart: always
     #SR 20250811 Upgrade php to 8.3
     #image: "esmero/php-8.1-fpm:1.2.0-multiarch"
-    image: "esmero/php-8.3-fpm:1.5.0-multiarch"
+    #image: "esmero/php-8.3-fpm:1.5.0-multiarch"
+    image: "esmero/php-8.3-fpm:1.7.0-multiarch"
     tty: true
     networks:
       - host-net
@@ -71,7 +72,7 @@ services:
     #  - seccomp:unconfined
     tty: true
     environment:
-      SOLR_HEAP: 1024m
+      SOLR_HEAP: 4096m
       SOLR_OPTS: -Dsolr.jetty.request.header.size=65535 -Dsolr.modules=scripting
     ports:
       - "8983:8983"
@@ -89,7 +90,7 @@ services:
       - /drupalconfig
   db:
     image: mysql:8.0.37
-    command: mysqld --binlog-expire-logs-seconds=172800 --max_allowed_packet=256M --transaction-isolation=READ-COMMITTED --log-bin=mysqld-bin
+    command: mysqld --binlog-expire-logs-seconds=172800 --max_allowed_packet=256M --sort_buffer_size=1M --transaction-isolation=READ-COMMITTED --log-bin=mysqld-bin
     container_name: esmero-db
     restart: always
     cap_add:
